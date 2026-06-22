@@ -1,0 +1,11 @@
+/* KO GF Field Lock - fade and lock the entire Gravity Forms field wrapper. */
+.gfield.ko-locked-field {
+	opacity: 0.45;
+	pointer-events: none;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.gfield.ko-locked-field input[type="radio"],
+.gfield.ko-locked-field label {
+	cursor: not-allowed !important;
+}
